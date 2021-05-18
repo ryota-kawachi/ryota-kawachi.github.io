@@ -1,0 +1,21 @@
+/* ヘッダー */
+.header {
+	background: #e5e7e7;
+}
+
+.header-inner {
+	display: flex;
+	font-size: 1.5rem;
+}
+
+.header-title {
+	margin-right: 20%;
+}
+
+.header-inner .nav ul {
+	display: flex;
+}
+
+.header .nav ul li {
+}
+
