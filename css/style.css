@@ -1,21 +1,120 @@
-/* ヘッダー */
-.header {
-	background: #e5e7e7;
+body {
+	background: #ddd;
 }
 
-.header-inner {
+/* ヘッダー */
+header {
+	background: #000;
+	color: #fff;
 	display: flex;
+	padding: 1rem;
+	width: 100vw;
+}
+
+.header_title {
+	margin-right: 3rem;
+	font-size: 1.5rem;
+} 
+
+.header .nav .nav-lists{
+	display: flex;
+} 
+
+.header .nav .nav-lists li{
+	margin-right: 1rem; 
+	justify-content: space-between;
+}
+
+/* ファーストビュー */
+.fv {
+	height: 100vh;
+	text-align: center;
+}
+
+.fv-design {
+	position: relative;
+	top: 40%;
+}
+
+.fv .fv-design h1 {
+	font-size: 4rem;
+	margin-bottom: 2rem;
+}
+
+.fv .fv-design p {
+	justify-content: center;
+	font-size: 2rem;
+}
+
+/* ABOUT */
+.title {
+	font-size: 3rem;
+	text-align: center;
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+}
+
+.title::before {
+	content: "----- "
+}
+
+.title::after {
+	content: " -----"
+}
+
+.about {
+	height: 100vh;
+}
+
+.about-txt {
+	width: 600px;
+	text-align: center;
+	font-size: 16px;
+	line-height: 1.8;
+	position: relative;
+	left: 30%;
+}
+
+.about-content {
+	display: flex;
+	justify-content: center;
+}
+
+.about-content .about-skill {
+	margin: 2rem;
+	text-align: center;
+	font-weight: bold;
+}
+
+.about-content .about-skill li {
+	list-style-type: none;	
+	text-align: center;
+	margin: 20px;
+}
+
+
+/* works */
+.works-item {
+	text-align: center;
+}
+
+.works-item p {
 	font-size: 1.5rem;
 }
 
-.header-title {
-	margin-right: 20%;
+
+/* contact */
+#contact {
+	text-align: center;
 }
 
-.header-inner .nav ul {
+#contact ul {
 	display: flex;
+	justify-content: center;
 }
 
-.header .nav ul li {
+#contact li {
+	list-style-type: none;
+	margin: 2rem;
+	text-align: center;
 }
-

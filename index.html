@@ -6,14 +6,17 @@
 		<title>K.Ryota's Portforio Site</title>
 		<meta name="description" content="">
 		<!-- PC:120文字以内 スマホ:70文字以内 -->
-		<!-- start:OGP -->
+
+		<!-- OGP -->
 		<meta property="og:url" content="ページのURL">
 		<meta property="og:type" content="ページの種類">
 		<meta property="og:title" content="ページのタイトル">
 		<meta property="og:description" content="ページの説明">
 		<meta property="og:site_name" content="ページのサイト名">
 		<meta property="og:image" content="サムネイル画像のURL"> <!-- 絶対パス -->
-		<!-- finish:OGP -->
+
+		<!-- FontaweSome -->
+		<script src="https://kit.fontawesome.com/e7b007e42d.js" crossorigin="anonymous"></script>		
 
 		<!-- CSS -->
 		<link rel="stylesheet" href="https://unpkg.com/destyle.css@1.0.5/destyle.css">
@@ -23,25 +26,26 @@
 	<body>
 		<!-- ヘッダー -->
 		<header class="header">
-			<div class="header-inner">
-				<h1 class="header_title">Ryota's Portforio Site</h1>
-				<!-- ナビゲーション -->
-				<nav class="nav">
-					<ul class="nav-lists">
-						<li class="nav-list"><a href="#">ABOUT</a></li>
-						<li class="nav-list"><a href="#">WORKS</a></li>
-						<li class="nav-list"><a href="#">CONTACT</a></li>
-					</ul>					
-				</nav>
-			</div>
-		</header>
+			<h1 class="header_title">Ryota's Portforio Site</h1>
+			<!-- ナビゲーション -->
+			<nav class="nav">
+				<ul class="nav-lists">
+					<li class="nav-list"><a href="#">ABOUT</a></li>
+					<li class="nav-list"><a href="#">WORKS</a></li>
+					<li class="nav-list"><a href="#">CONTACT</a></li>
+				</ul>					
+			</nav>
+		</div>
+	</header>
 
 		<!-- メインコンテンツ -->
 		<main class="main">
 			<!-- ファーストビュー -->
-			<div class="first-view">
-				<h1>Ryota Kawachi</h1>
-				<p>Web engineer. practice now.</p>
+			<div class="fv">
+				<div class="fv-design">
+					<h1>Ryota Kawachi</h1>
+					<p>Web engineer. practice now.</p>
+				</div>
 			</div>
 
 			<!-- セクション -->
@@ -54,31 +58,38 @@
 
 				<div class="about-content">
 					<div class="about-skill">
-						<img src="" alt="HTML">
-						<p>文章が入ります。文章が入ります。文章が入ります。</p>
+						<li><a href="#"><i class="fab fa-html5 fa-7x"></i></a></li>
+						<p>HTML5</p>
+					</div> <!-- /about-skill -->
+				 	
+					<div class="about-skill">
+						<li><a href="#"><i class="fab fa-css3-alt fa-7x"></i></a></li>
+						<p>CSS3</p>
 					</div> <!-- /about-skill -->
 
 					<div class="about-skill">
-						<img src="" alt="CSS">
-						<p>文章が入ります。文章が入ります。文章が入ります。</p>
-					</div> <!-- /about-skill -->
-
-					<div class="about-skill">
-						<img src="" alt="JavaScript">
-						<p>文章が入ります。文章が入ります。文章が入ります。</p>
+						<li><a href="#"><i class="fab fa-js-square fa-7x"></i></a></li>
+						<p>JavaScript</p>
 					</div> <!-- /about-skill -->
 				</div> <!-- /about-content -->
 			</section> <!-- /about -->
 
 			<section id="works">
+				<h2 class="title">WORKS</h2>
 				<div class="works-item">
-					<a href=""><img src="" alt="Portforio Site"></a>
-					<p>文章が入ります。文章が入ります。文章が入ります。</p>
+					<a href=""><img src="images/ready.png" alt="Portforio Site"></a>
+					<p>準備中...。しばらくお待ちくだサイ。</p>
 				</div> <!-- /works-item -->
 			</section>
 
 			<section id="contact">
-				
+				<h2 class="title">CONTACT</h2>
+				<ul>
+					<li><a href="#"><i class="fab fa-twitter-square fa-7x"></i></a></li>
+					<li><a href="#"><i class="fab fa-facebook-square fa-7x"></i></i></a></li>
+					<li><a href="#"><i class="fas fa-envelope fa-7x"></i></a></li>
+				</ul>
+			
 			</section>
 		</main>
 
